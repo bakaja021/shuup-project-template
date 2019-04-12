@@ -61,20 +61,20 @@ pyjwt==1.7.1              # via djangorestframework-jwt
 pyphen==0.9.5             # via weasyprint
 python-dateutil==2.7.5    # via shuup
 python-memcached==1.59
-pytoml==0.1.20            # via shuup
-pytz==2018.7              # via babel, django, django-timezone-field, shuup
+pytz==2018.7              # via babel, django, django-timezone-field
 pyyaml==3.13              # via shuup-yaml
 raven==5.33.0
 requests==2.21.0
-secretstorage==2.3.1      # via shuup
+secretstorage==2.3.1      # via keyring
 setuptools-gitver==1.1.0  # via shuup-yaml
-shuup==1.8.1
-shuup-stripe==0.8.6
+shuup==1.9.3b3
+shuup-stripe==0.9.3
 shuup-yaml==1.0.1b2
 simplejson==3.16.0        # via django-rest-swagger
 six==1.12.0               # via cryptography, html5lib, keyrings-alt, python-dateutil, python-memcached, shuup
 stripe==1.84.2            # via shuup-stripe
 tinycss2==0.6.1           # via cairosvg, cssselect2, weasyprint
+toml==0.10.0              # via shuup
 unicodecsv==0.14.1        # via shuup
 unidecode==1.0.23         # via django-filer
 uritemplate==3.0.0        # via coreapi
